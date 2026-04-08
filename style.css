@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+
+nav h1 {
+  color: cyan;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h2 {
+  color: cyan;
+  font-size: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid cyan;
+  color: cyan;
+  cursor: pointer;
+}
+
+button:hover {
+  background: cyan;
+  color: black;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+h3 {
+  color: cyan;
+}
