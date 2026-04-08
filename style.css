@@ -61,3 +61,27 @@ section {
 h3 {
   color: cyan;
 }
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 2px solid cyan;
+}
+
+.cert-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cert-container img {
+  width: 250px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.cert-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px cyan;
+}
